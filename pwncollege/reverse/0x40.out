@@ -1,0 +1,176 @@
+bytearray(b'\x01\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b'\x02\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b'\x04\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b'\x08\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b'\x10\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b' \xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b'@\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
+bytearray(b'\x80\xff@')
+[+] Welcome to /challenge/babyrev_level22.1!
+[+] This challenge is an custom emulator. It emulates a completely custom
+[+] architecture that we call "Yan85"! You'll have to understand the
+[+] emulator to understand the architecture, and you'll have to understand
+[+] the architecture to understand the code being emulated, and you will
+[+] have to understand that code to get the flag. Good luck!
+[+]
+[+] This level is a full Yan85 emulator. You'll have to reason about yancode,
+[+] and the implications of how the emulator interprets it!
+[?] This challenge is special! It randomizes the Yan85 VM based on
+[?] the value of the flag. This means that there is no way for you
+[?] to know the opcode and argument encodings...
+[?]
+[?] Keep in mind that the encoding that you observe in practice mode
+[?] is going to be different than the actual encoding, because the
+[?] practice mode flag is different. How will you adapt?
+[?]
+[?] Is there maybe a clever side channel you can utilize?
+[?] ... Done! VM is randomized!
+[!] This time, YOU'RE in control! Please input your yancode: [+] Starting interpreter loop! Good luck!
+Machine CRASHED due to: unknown register
