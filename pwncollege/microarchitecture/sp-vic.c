@@ -1,3 +1,5 @@
+// gcc sp-vic.c -lrt -D_GNU_SOURCE -o sp-vic -lm
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
