@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+typedef long long ll;
+void solve() {
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        ll  n, x;
+        ll k;
+        scanf("%lld %lld %lld", &n, &x, &k);
+        
+        char *s = (char*)malloc(n + 1);
+        ll *cnt=(ll*)calloc(2*(n+1), sizeof(ll));
+       
+        scanf("%s", s);
+        ll ans = 0;
+
+        
+        
+        free(s);
+        free(cnt);
+        printf("%lld\n", ans);
+    }
+}
+
+int main() {
+    solve();
+    return 0;
+}

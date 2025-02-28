@@ -17,11 +17,11 @@ def extended_euclid(a, b):
         (x, y, q) = extended_euclid(b, a % b)
         return (y, x - (a // b) * y, q)
  
-# Ê¹ÓÃÊ¾Àı
+# ä½¿ç”¨ç¤ºä¾‹
 a = 32321
 b = 26513
  
-# µ÷ÓÃÀ©Õ¹Å·¼¸ÀïµÃËã·¨
+# è°ƒç”¨æ‰©å±•æ¬§å‡ é‡Œå¾—ç®—æ³•
 x, y, gcd = extended_euclid(a, b)
 print(f"GCD({a}, {b}) = {gcd}")
-print(f"ÌØ½âÎª x = {x}, y = {y}")
+print(f"ç‰¹è§£ä¸º x = {x}, y = {y}")
